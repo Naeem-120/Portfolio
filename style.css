@@ -30,6 +30,12 @@ nav a{
     text-decoration: none;
     color: #474747;
 }
+header{
+    /* color: #FFF8F3; */
+    background-image: url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
 .button-primary{
     border-radius: 5px;
     background:  #fd6e01;
@@ -40,8 +46,43 @@ nav a{
     font-size: 20px;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.greeting{
+    font-size: 45px;
+    /* font-weight: 700; */
+    color: #474747;
+    margin-bottom: 5px;
+}
+.intro{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.banner-content{
+    max-width: 500px;
+}
+/* main section style */
+
+/* about section */
+.about{
+    padding:130px;
+    border-radius: 10px;
+    background-color:  #FFF8F3;
+    margin: 130px 0;
+}
+.section-title{
+    font-size: 35px;
+    color:#181818;
+    font-weight: bold;
+    text-align: center;
+}
+.section-description{
+    color: #474747;
+    font-size: 20px;
+    text-align: center;
 }
