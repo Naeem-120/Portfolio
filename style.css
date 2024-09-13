@@ -151,8 +151,25 @@ footer{
     color:#FFF8F3;
     padding:130px 200px;
     margin-top: 100px;
+    gap: 100px;
 }
 .footer-description{
 
     color: #181818;
+}
+.footer-column{
+    width: 50%;
+}
+
+.Input,textarea{ 
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    border: none;
+    background: #FFF;
+}
+.social-links{
+    margin-left: 25px;
 }
