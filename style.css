@@ -67,8 +67,12 @@ header{
     max-width: 500px;
 }
 /* main section style */
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section */
+
 .about{
     padding:130px;
     border-radius: 10px;
@@ -85,4 +89,18 @@ header{
     color: #474747;
     font-size: 20px;
     text-align: center;
+}
+.about-info-container{
+    display:flex;
+    justify-content: space-between;
+}
+.about-info-container{
+    text-align: center;
+}
+.skill{
+    display: flex;
+    justify-content: space-between;
+}
+.skill-description{
+    text-align: start;
 }
